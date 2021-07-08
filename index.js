@@ -5,7 +5,7 @@ const app = require('./app')
 
 mongoose.Promise = global.Promise;
 
-const URL = 'mongodb+srv://root:root@tornaisse.j89lr.mongodb.net/tornaisseDB?retryWrites=true&w=majority';
+const URL = 'mongodb+srv://root:root@tornaisse.j89lr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 
 mongoose.connect( URL, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false }).then(() => {
